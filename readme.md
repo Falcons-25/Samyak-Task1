@@ -13,7 +13,7 @@ This project demonstrates how to use an Arduino board to read sensor data and se
    - Connect your sensor to the Arduino board. For an ultrasonic sensor, connect the VCC to 5V, GND to GND, Trigger pin to a digital pin (e.g., D9), and Echo pin to another digital pin (e.g., D10).
 
 2. **Upload the Arduino Code:**
-   - Use the Arduino IDE to upload the  code to your Arduino board. 
+   - Use the Arduino IDE to upload the code to your Arduino board. 
    - Remember the serial baud rate and the COM port of your arduino.
 
 
@@ -37,7 +37,7 @@ This project demonstrates how to use an Arduino board to read sensor data and se
    - Ensure your Arduino is connected via USB.
    - Run the Python script:
      ```sh
-     python data_logger.py
+     python serialreader.py
      ```
 
 3. **Check the Output:**
